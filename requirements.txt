@@ -1,0 +1,15 @@
+# ===== LangGraph / LangChain =====
+langgraph>=0.6
+langchain>=0.3
+langchain-openai>=0.2
+
+# ===== FastAPI 服务 =====
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# ===== 配置 =====
+python-dotenv>=1.0
+
+# ===== RAG 知识库（OpenAI Embedding 不可用时自动降级为离线 TF-IDF）=====
+numpy>=1.26
+scikit-learn>=1.5
